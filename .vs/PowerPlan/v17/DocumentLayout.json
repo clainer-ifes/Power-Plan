@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DROPBOX_CBD\\Dropbox\\CLAINER\\08_PROJETOS_DE_PESQUISA\\27B_FAPES_DT_2021\\Desenvolvimento\\Software\\PowerPlan_English\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D48CD5CC-3B35-4238-8611-29ACBAA761D5}|PowerPlan.csproj|d:\\dropbox_cbd\\dropbox\\clainer\\08_projetos_de_pesquisa\\27b_fapes_dt_2021\\desenvolvimento\\software\\powerplan_english\\reconductoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48CD5CC-3B35-4238-8611-29ACBAA761D5}|PowerPlan.csproj|solutionrelative:reconductoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48CD5CC-3B35-4238-8611-29ACBAA761D5}|PowerPlan.csproj|D:\\DROPBOX_CBD\\Dropbox\\CLAINER\\08_PROJETOS_DE_PESQUISA\\27B_FAPES_DT_2021\\Desenvolvimento\\Software\\PowerPlan_English\\reconductoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D48CD5CC-3B35-4238-8611-29ACBAA761D5}|PowerPlan.csproj|solutionrelative:reconductoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reconductoring.cs",
+              "DocumentMoniker": "D:\\DROPBOX_CBD\\Dropbox\\CLAINER\\08_PROJETOS_DE_PESQUISA\\27B_FAPES_DT_2021\\Desenvolvimento\\Software\\PowerPlan_English\\Reconductoring.cs",
+              "RelativeDocumentMoniker": "Reconductoring.cs",
+              "ToolTip": "D:\\DROPBOX_CBD\\Dropbox\\CLAINER\\08_PROJETOS_DE_PESQUISA\\27B_FAPES_DT_2021\\Desenvolvimento\\Software\\PowerPlan_English\\Reconductoring.cs",
+              "RelativeToolTip": "Reconductoring.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAgwGgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:41:24.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reconductoring.cs [Design]",
+              "DocumentMoniker": "D:\\DROPBOX_CBD\\Dropbox\\CLAINER\\08_PROJETOS_DE_PESQUISA\\27B_FAPES_DT_2021\\Desenvolvimento\\Software\\PowerPlan_English\\Reconductoring.cs",
+              "RelativeDocumentMoniker": "Reconductoring.cs",
+              "ToolTip": "D:\\DROPBOX_CBD\\Dropbox\\CLAINER\\08_PROJETOS_DE_PESQUISA\\27B_FAPES_DT_2021\\Desenvolvimento\\Software\\PowerPlan_English\\Reconductoring.cs [Design]",
+              "RelativeToolTip": "Reconductoring.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:41:23.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
