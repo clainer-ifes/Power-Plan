@@ -1,50 +1,68 @@
 # PowerPlan
 
-PowerPlan is an open-source software tool for probabilistic planning of reconductoring in electricity distribution networks. The software integrates probabilistic load modeling, Monte Carlo scenario generation, exhaustive search optimization, and power flow simulation using OpenDSS.
+Power Plan is an open-source software tool for probabilistic planning of reconductoring investments in electricity distribution networks. The software integrates probabilistic load modeling, Monte Carlo scenario generation, exhaustive search optimization, and power flow simulation using OpenDSS®.
 
----
+The tool was developed in C# using the .NET Framework and provides an interactive graphical environment for configuring probabilistic planning studies under load uncertainty conditions.
 
-## ✨ Features
+---	
+
+## ✨ Main Features
 
 * Probabilistic modeling of load growth using probability density functions
-* Monte Carlo scenario generation
+* Monte Carlo generation of demand scenarios
 * Exhaustive search optimization of reconductoring alternatives
-* Integration with OpenDSS for power flow simulation
-* Internal graphical visualization of results
-* Export of advanced plots via MATLAB (.m files)
-* Database management of conductors and network parameters
+* Automatic integration with OpenDSS® for power flow simulation
+* Verification of operational constraints such as conductor loading and voltage limits
+* Internal graphical visualization of probabilistic planning results
+* Export of MATLAB (.m) scripts for advanced customized visualization
+* Database management of conductor technical and economic parameters
 
 ---
 
 ## 🧠 Methodological Background
 
-PowerPlan implements a probabilistic multi-stage optimization methodology for reconductoring planning under load uncertainty, as described in the associated research publication.
+Power Plan implements a probabilistic multi-stage optimization methodology for reconductoring planning under load uncertainty conditions, as presented in the associated scientific publication.
+
+The software is specifically focused on probabilistic reconductoring planning and is not intended to replace comprehensive active distribution planning frameworks.
 
 ---
 
 ## 🖥️ Requirements
 
-* Windows OS
-* .NET Framework
-* OpenDSS installed
-* SQL Server Compact (SQL Server CE)
+Recommended environment:
+
+* Windows 10 or newer
+* Visual Studio 2022 (or compatible)
+* .NET Framework 4.8
+* OpenDSS® installed locally
+* SQL Server Compact 4.0 (SQL Server CE)
+
+Optional:
+
+* MATLAB® (only required for executing exported .m visualization scripts)
 
 ---
 
 ## ⚙️ Installation
 
-1. Clone the repository:
+1. Clone the repository
+git clone https://github.com/clainer-ifes/Power-Plan.git
 
-```bash
-git clone https://github.com/YOUR_REPOSITORY/PowerPlan.git
-```
+2. Open the project
 
-2. Open the solution in Visual Studio
+Open the solution file (PowerPlan.sln) using Visual Studio.
 
-3. Build the project using .NET Framework
+3. Build the solution
 
-4. Ensure OpenDSS and SQL Server Compact are properly installed
+Compile the project using the Release or Debug configuration.
 
+4. Install OpenDSS®
+
+Power Plan communicates with OpenDSS®. OpenDSS® must be installed locally before executing the software.
+
+5. Install SQL Server Compact
+
+Ensure SQL Server Compact 4.0 is installed on the system before execution.
 ---
 
 ## 🚀 Usage
@@ -57,7 +75,6 @@ git clone https://github.com/YOUR_REPOSITORY/PowerPlan.git
 
    * Built-in graphical outputs
    * Exported MATLAB scripts for advanced visualization
-
 ---
 
 ## 📊 Outputs
@@ -73,6 +90,22 @@ PowerPlan provides two types of outputs:
 
 * MATLAB (.m) scripts for customized plots
 * Network graphs highlighting reinforced segments
+
+---
+
+## ⚠️ Troubleshooting
+
+OpenDSS® connection issues
+* Verify that OpenDSS® is correctly installed
+* Ensure the COM interface is available
+* Restart Visual Studio after installing OpenDSS®
+
+Database-related issues
+* Verify that SQL Server Compact 4.0 is installed
+
+Execution issues
+* Run Visual Studio with administrator privileges if necessary
+* Verify compatibility with .NET Framework 4.8
 
 ---
 
@@ -113,3 +146,4 @@ This project is licensed under the MIT License.
 Clainer Bravin Donadel
 Federal Institute of Espírito Santo (IFES)
 Email: cdonadel@ifes.edu.br
+
